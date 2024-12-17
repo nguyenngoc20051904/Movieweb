@@ -1,10 +1,10 @@
 import IconRating from "../assets/rating.png";
 import IconRatingHalf from"../assets/rating-half.png";
-import ImgTemp from"../assets/temp-1.jpeg";
+import ImgTemp from"../assets/teeyod.jpg";
 import IconPlay from"../assets/play-button.png"
 const Banner = () => {
 return (
-    <div className="w-full h-[700px] bg-banner
+    <div className="w-full h-[800px] bg-banner
     bg-center bg-no-repeat bg-cover relative">
         <div className="absolute w-full h-full top-0 
         left-0 bg-black opacity-40" />
@@ -17,7 +17,7 @@ return (
                 </p>
                 <div className="flex flex-col space-y-4">
                     <h2 className="text-white text-[40px] font-bold">
-                        Nghe nói em thích tôi</h2>
+                        Quỷ Ăn Tạng 2</h2>
                     <div className="flex items-center space-x-3">
                         <img src={IconRating} alt="rating"
                         className="w-8 h-8"/>
